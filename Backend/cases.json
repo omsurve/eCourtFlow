@@ -1,0 +1,49 @@
+{
+  "Caseid": "1",
+  "Section": "IPC 302",
+  "Casetype": "Murder",
+  "Casefilingdate": "2022-03-15",
+  "Firstparty": "Rajesh Sharma",
+  "Secondparty": "Amit Singh",
+  "Judgeallocated": "Justice Mehta"
+}
+
+{
+  "Caseid": "2",
+  "Section": "IPC 376",
+  "Casetype": "Rape",
+  "Casefilingdate": "2021-07-10",
+  "Firstparty": "Priya Verma",
+  "Secondparty": "Rahul Kapoor",
+  "Judgeallocated": "Justice Reddy"
+}
+
+{
+  "Caseid": "3",
+  "Section": "NDPS Act 20(b)",
+  "Casetype": "Drug Possession",
+  "Casefilingdate": "2023-01-25",
+  "Firstparty": "Amit Verma",
+  "Secondparty": "Rajat Mehta",
+  "Judgeallocated": "Justice Gupta"
+}
+
+{
+  "Caseid": "4",
+  "Section": "IPC 420",
+  "Casetype": "Cheating",
+  "Casefilingdate": "2022-09-05",
+  "Firstparty": "Suman Patel",
+  "Secondparty": "Vikram Singh",
+  "Judgeallocated": "Justice Sharma"
+}
+
+{
+  "Caseid": "5",
+  "Section": "IPC 138",
+  "Casetype": "Cheque Bounce",
+  "Casefilingdate": "2023-04-20",
+  "Firstparty": "Rahul Gupta",
+  "Secondparty": "Arun Kumar",
+  "Judgeallocated": "Justice Khanna"
+}

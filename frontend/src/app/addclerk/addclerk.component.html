@@ -1,0 +1,55 @@
+<div class="row  align-items-center justify-content-center mt-0 m-0">
+    <!-- <div class="col-lg-6  "> -->
+    <div class="rounded p-5  " style="background: rgba(2, 2, 5, 0.7);">
+
+        <h1 class="text-center  mb-4 " style="color: white;">Add Clerk</h1>
+
+        <form #Clerk="ngForm" (ngSubmit)="getAddClerk(Clerk.value)" method="post">
+
+
+            <div class="form-group ">
+                <label style="color: white;">Enter Clerk Name:</label>
+                <input type="select" class="form-control " placeholder="Clerk Name" required="required" name="name" ngModel />
+            </div>
+
+            <div class="form-group ">
+                <label style="color: white;">Enter  Clerk Email:</label>
+                <input type="text" class="form-control " placeholder="Clerk Email" required="required" name="email"
+                    ngModel />
+            </div>
+            <div class="form-group ">
+                <label style="color: white;">Enter  Clerk Id:</label>
+                <input type="text" class="form-control " placeholder="Clerk Id" required="required" name="judge_id"
+                    ngModel />
+            </div>
+            
+            <div class="form-group ">
+                <label style="color: white;">Enter your Password:</label>
+                <input type="password" class="form-control " placeholder="Password" required="required" name="password"
+                    ngModel />
+            </div>
+
+            <div class="form-group ">
+              <mat-label style="color:white;">Select Role Type:</mat-label>
+                <!-- <label style="color: white;">Select Role Type:</label> -->
+                <select  required disabled class="m-1" name="userType" >
+                    
+                    <option value="Clerk" selected >Clerk </option>
+                  </select>
+            </div>
+
+            <div>
+                <input class="btn btn-primary btn-block border-0 py-3" type="submit" value="Add Clerk" />
+            </div>
+        </form>
+        <style> 
+            .form-control:focus{
+                background-color: white;
+            }
+            .form-control{
+                background-color: white;
+            }
+        </style>
+    </div>
+    <!-- </div> -->
+</div>
